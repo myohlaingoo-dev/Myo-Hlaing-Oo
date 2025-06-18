@@ -1,3 +1,107 @@
-body{
-    background-color: yellow;
+*{
+    margin: 0;
+    padding: 0;
+}
+.sign-in{
+    background-color: #fdfffd;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.menus{
+    background-color: #fdfffd;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.menu{
+    
+    margin-bottom: 25px;
+    font-size: small;
+    }
+    .menu-item{
+        text-decoration: none;
+        color: inherit;
+        margin-left: 15px;
+        font-size: 11px;
+        font-family: Inter;
+    }
+    .menu-item:hover{
+      text-decoration: underline;
+    }
+.messenger-info{
+     background-color: #fdfffd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+}
+.page{
+    display: flex;
+   background-color: rgb(242, 247, 241);
+    flex-direction: row;
+    height: 500px;
+}
+.logo{
+    width:25px;
+    
+    margin-bottom: 60px;
+}
+.chat-box{
+    width: 400px;
+    margin-top: 15px;
+}
+.number{
+    background-color: lightgray;
+    height: 45px;
+    padding-left: 9px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+.word{
+    background-color: lightgray;
+    height: 45px;
+    padding-left: 9px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    font-size: 11px;
+}
+button{
+    background-color: blue;
+    color:aliceblue;
+    width: 70px;
+    height:45px;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px; 
+}
+p{
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 15px;
+}
+.check{
+    margin-top:15px;
+    font-size: 13px;
+    font-family: Inter;
+}
+.forgot{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Inter;
+}
+h2{
+    margin-bottom: 15px;
+    font-family: Inter;
+}
+.store{
+    width: 70px;
 }
