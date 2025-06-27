@@ -55,6 +55,19 @@
     .continue:hover {
       text-decoration: underline;
     }
+
+    .reading {
+      text-decoration: none;
+    }
+
+    .reading:hover {
+      text-decoration: underline;
+    }
+    .link{
+      display: flex;
+      flex-direction: column;
+      
+    }
   </style>
 </head>
 
@@ -122,16 +135,96 @@
     <a href="#" class="continue text-white fw-bolder">Continue reading...</a>
   </div>
   <!--Section-->
-  <section class=" d-flex mt-4 g-4">
-    <div class="col-lg-6 bg-dark">
-      hasuahu
-    </div>
-    <div class="col-lg-6   bg-primary">
-      skkjlkj
-    </div>
+  <div class="row mt-1 g-4">
 
+    <div class="col">
+      <div class="d-flex">
+        <div class="column p-3 lh-sm border border-dark-subtle">
+          <p class="fw-bold text-primary">World</p>
+          <h2>Featured Post</h2>
+          <p>Nov 12</p>
+          <p class="col-md-10">This is a wider card with supporting text below as a natural lead-in to additional
+            content.<br><a href="#" class="reading">Continue reading</a></p>
 
-  </section>
+        </div>
+        <div class="col-4 col-md-5 bg-dark text-white position-relative d-none d-lg-block">
+          <p class="position-absolute start-50 top-50 translate-middle">Thumbnail</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+      <div class="d-flex mb-4">
+        <div class="column p-3 lh-sm border border-dark-subtle">
+          <p class="fw-bold text-success">Design</p>
+          <h2>Post title</h2>
+          <p>Nov 11</p>
+          <p class="col-md-10">This is a wider card with supporting text below as a natural lead-in to additional
+            content.<br><a href="#" class="reading">Continue reading</a>
+          </p>
+
+        </div>
+        <div class="col-4 col-md-5 bg-dark text-white position-relative d-none d-lg-block">
+          <p class="position-absolute start-50 top-50 translate-middle">Thumbnail</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Content-->
+  <div class="mt-4 d-flex row g-4">
+    <div class="col-lg-8">
+      <div class="border-bottom border-secondary-subtle">
+        <h3 class="mb-4">From the Firehose</h3>
+      </div>
+      <h1 class="mt-3">Sample blog post</h1>
+      <p class="mb-3">January 1, 2014 by Mark</p>
+      <p class="mb-4">This blog post shows a few different types of content that’s supported and styled with Bootstrap.
+        Basic typography, images, and code are all supported.</p>
+      <p class="mb-4">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
+        Cras mattis consectetur purus sit amet fermentum.</p>
+      <p class="mb-4">Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam
+        id dolor id
+        nibh ultricies vehicula ut id elit.</p>
+      <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean
+        lacinia bibendum nulla sed consectetur.</p>
+      <h1>Heading</h1>
+      <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus,
+        nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+        at eros.</p>
+      <h1>Sub-heading</h1>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <p class="fw-light">Example code block</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus,
+        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+      <h1>Sub-heading</h1>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum
+        nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo,
+        tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+    </div>
+    <div class="col-lg-4 mt-5">
+      <h2>About</h2>
+      <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean
+        lacinia
+        bibendum nulla sed consectetur.</p>
+      <h2>Archives</h2>
+      <div class="link lh-lg">
+       <a href="#">March 2014</a>
+        <a href="#">February 2014</a>
+         <a href="#">January 2014</a>
+          <a href="#">December 2013</a>
+           <a href="#">November 2013</a>
+            <a href="#">October 2013</a>
+             <a href="#">September 2013</a>
+              <a href="#">August 2013</a>
+               <a href="#">July 2013</a>
+                <a href="#">June 2013</a>
+                 <a href="#">May 2013</a>
+                 <a href="#">April 2013 </a>
+                  
+      </div>
+    </div>
+  </div>
 
 </body>
 
