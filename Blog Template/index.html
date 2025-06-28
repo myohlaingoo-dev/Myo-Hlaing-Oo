@@ -26,206 +26,369 @@
       font-family: 'DM Serif Display';
     }
 
-    .subscribe-link {
-      text-decoration: none;
-    }
-
-    .subscribe-link:hover {
-      text-decoration: underline;
-    }
-
-    .item {
-      text-decoration: none;
-      color: gray;
-    }
-
-    .item:hover {
-      text-decoration: underline;
-    }
-
-    .continue {
-      text-decoration: none;
-      font-size: larger;
-    }
-
-    h1 {
+    h1,
+    h2,
+    h3,
+    .h7 {
       font-family: 'DM Serif Display';
     }
 
-    .continue:hover {
-      text-decoration: underline;
-    }
-
-    .reading {
-      text-decoration: none;
-    }
-
-    .reading:hover {
-      text-decoration: underline;
-    }
-    .link{
+    .link {
       display: flex;
       flex-direction: column;
-      
+      text-decoration: none;
+
     }
   </style>
 </head>
 
-<body class="container">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm py-2 container border-bottom border-secondary-subtle">
-    <section class=" container d-flex justify-content-between">
-      <div>
-        <a href="#" class="text-secondary subscribe-link">Subscribe</a>
-      </div>
-      <h2 class="title">Large</h2>
-      <div>
-        <i class="bi bi-search"></i>
-        <button type="button" class="btn btn-outline-secondary btn-sm ms-3">Sign up</button>
+<body>
+  <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm py-2 container border-bottom border-secondary-subtle">
+      <section class=" container d-flex justify-content-between">
+        <div>
+          <a href="#" class="text-secondary subscribe-link">Subscribe</a>
+        </div>
+        <h1 class="title">Large</h1>
+        <div>
+          <i class="bi bi-search"></i>
+          <button type="button" class="btn btn-outline-secondary btn-sm ms-3">Sign up</button>
+        </div>
+      </section>
+      <!-- Navbar -->
+    </nav>
+    <section class="container my-2 border-bottom border-secondary-subtle">
+      <div class="row text-center">
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none fw-bolder">World</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">U.S.</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">Technology</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">Design</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">Culture</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">Business</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">Politics</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">Opinion</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
+          <a href="#" class="link-body-emphasis text-decoration-none">Science</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1">
+          <a href="#" class="link-body-emphasis text-decoration-none">Health</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1">
+          <a href="#" class="link-body-emphasis text-decoration-none">Style</a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-2 col-lg-1">
+          <a href="#" class="link-body-emphasis text-decoration-none">Travel</a>
+        </div>
       </div>
     </section>
-    <!-- Navbar -->
-  </nav>
-  <section class="container my-2">
-    <div class="row text-center">
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">World</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">U.S.</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">Technology</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">Design</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">Culture</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">Business</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">Politics</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">Opinion</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1 mb-2">
-        <a href="#" class="item">Science</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1">
-        <a href="#" class="item">Health</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1">
-        <a href="#" class="item">Style</a>
-      </div>
-      <div class="col-3 col-sm-3 col-md-2 col-lg-1">
-        <a href="#" class="item">Travel</a>
-      </div>
+    <!-- Title -->
+    <div class="jumbotron p-4 p-md-5 text-dark rounded bg-body-secondary mt-3">
+      <h1 class="col-9 col-sm-10 col-md-6 col-lg-5 mb-3">Title of a longer featured blog post</h1>
+      <h5 class="col-11 col-lg-6 col-md-11 fw-light lh-base mb-4">Multiple lines of text that form the lede, informing
+        new
+        readers quickly
+        and efficiently about what’s most interesting in this post’s contents.</h5>
+      <a href="#" class="link-body-emphasis">
+        <h5 class="text-decoration-underlinei text-dark fw-bolder">Continue reading...</h5>
+      </a>
     </div>
-  </section>
-  <!-- Title -->
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-    <h1 class="col-9 col-sm-10 col-md-6 col-lg-5 mb-3">Title of a longer featured blog post</h1>
-    <h5 class="col-11 col-lg-6 col-md-11 fw-light lh-base mb-4">Multiple lines of text that form the lede, informing new
-      readers quickly
-      and efficiently about what’s most interesting in this post’s contents.</h5>
-    <a href="#" class="continue text-white fw-bolder">Continue reading...</a>
-  </div>
-  <!--Section-->
-  <div class="row mt-1 g-4">
+    <!--Section-->
+    <div class="row mt-1 g-4">
 
-    <div class="col">
-      <div class="d-flex">
-        <div class="column p-3 lh-sm border border-dark-subtle">
-          <p class="fw-bold text-primary">World</p>
-          <h2>Featured Post</h2>
-          <p>Nov 12</p>
-          <p class="col-md-10">This is a wider card with supporting text below as a natural lead-in to additional
-            content.<br><a href="#" class="reading">Continue reading</a></p>
+      <div class="col-sm-12 col-lg-6 col-md-6">
+        <div class="d-flex shadow">
+          <div class="column p-3 border rounded">
+            <p class="fw-bold text-primary-emphasis mb-1">World</p>
+            <h3 class="m-0">Featured Post</h3>
+            <p class="mb-2">Nov 12</p>
 
+            <p class="col-sm-12 col-lg-12">This is a wider card with supporting text below as a natural lead-in to
+              additional
+              content.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover">Continue reading<i
+                class="bi bi-chevron-compact-right"></i></a>
+
+          </div>
+          <div class="col-4 col-md-5 bg-secondary text-white position-relative d-none d-lg-block">
+            <p class="position-absolute start-50 top-50 translate-middle">Thumbnail</p>
+          </div>
         </div>
-        <div class="col-4 col-md-5 bg-dark text-white position-relative d-none d-lg-block">
-          <p class="position-absolute start-50 top-50 translate-middle">Thumbnail</p>
+
+      </div>
+      <div class="col-sm-12 col-lg-6 col-md-6">
+        <div class="d-flex mb-2 shadow">
+          <div class="column p-3 border rounded">
+            <p class="fw-bold text-success mb-1">Design</p>
+            <h3 class="m-0">Post title</h3>
+            <p class="mb-2">Nov 11</p>
+            <p class="col-sm-12 col-lg-12">This is a wider card with supporting text below as a natural lead-in to
+              additional
+              content.
+            </p>
+            <a href="#" class="icon-link gap-1 icon-link-hover">Continue reading<i
+                class="bi bi-chevron-compact-right"></i></a>
+
+          </div>
+          <div class="col-4 col-md-5 bg-secondary text-white position-relative d-none d-lg-block">
+            <p class="position-absolute start-50 top-50 translate-middle">Thumbnail</p>
+          </div>
         </div>
       </div>
-
     </div>
-    <div class="col">
-      <div class="d-flex mb-4">
-        <div class="column p-3 lh-sm border border-dark-subtle">
-          <p class="fw-bold text-success">Design</p>
-          <h2>Post title</h2>
-          <p>Nov 11</p>
-          <p class="col-md-10">This is a wider card with supporting text below as a natural lead-in to additional
-            content.<br><a href="#" class="reading">Continue reading</a>
+    <!--Content-->
+    <div class="mt-2 d-flex row g-4">
+      <div class="col-lg-8 col-md-8">
+        <div class="border-bottom border-secondary-subtle">
+          <h3 class="mb-4">From the Firehose</h3>
+        </div>
+        <!--Sample Blog Post-->
+        <h1 class="mt-3">Sample blog post</h1>
+        <p class="mb-3 fw-light">January 1, 2021 by <a href="#">Mark</a></p>
+        <div class="border-bottom border-secondary-subtle">
+          <p>This blog post shows a few different types of content that’s supported and styled with
+            Bootstrap.
+            Basic typography, lists, tables, images, code, and more are all supported as expected.
           </p>
+        </div>
+        <p class="mt-3">This is some additional paragraph placeholder content. It has been written to fill the available
+          space and
+          show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
+          demonstration flowing, so be on the lookout for this exact same string of text.</p>
+
+        <!--Blockquotes-->
+        <h2>Blockquotes</h2>
+        <p>This is an example blockquote in action:</p>
+        <h5 class="fw-normal mt-4">Quoted text goes here.</h5>
+        <p class="mt-3">This is some additional paragraph placeholder content. It has been written to fill the available
+          space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
+          demonstration flowing, so be on the lookout for this exact same string of text.</p>
+        <!--Example lists-->
+        <h2>Example lists</h2>
+        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly
+          repetitive body text used throughout. This is an example unordered list:</p>
+        <ul>
+          <li>First list item</li>
+          <li>Second list item with a longer description</li>
+          <li>Third list item to close it out</li>
+        </ul>
+        <p>And this is an ordered list:</p>
+        <ol>
+          <li>First list item</li>
+          <li>Second list item with a longer description</li>
+          <li>Third list item to close it out</li>
+        </ol>
+        <p>And this is a definition list:</p>
+        <p class="fw-bold mb-0">HyperText Markup Language (HTML)</p>
+        <p>The language used to describe and define the content of a Web page</p>
+        <p class="fw-bold mb-0">Cascading Style Sheets (CSS)</p>
+        <p>Used to describe the appearance of Web content</p>
+        <p class="fw-bold mb-0">JavaScript (JS)</p>
+        <p>The programming language used to build advanced Web sites and applications</p>
+        <!--Inline HTML Elements-->
+        <h2>Inline HTML elements</h2>
+        <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a
+            href="#">Mozilla Developer Network.</a></p>
+        <ul>
+          <li><strong>To bold text,</strong> use <code
+              class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.
+          </li>
+          <li><span class="fst-italic">To italicize text</span> use <code
+              class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+          <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code
+              class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code
+              class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
+          <li>Citations, like — <span class="fst-italic">Mark Otto,</span> should use <code
+              class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+          <li><span class="text-decoration-line-through">Deleted</span> text should use <code
+              class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <span
+              class="text-decoration-underline">inserted</span> text should use <code
+              class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+          <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and
+            subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+        </ul>
+        <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+        <!--Heading-->
+        <h2>Heading</h2>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
+          show
+          how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration
+          flowing, so be on the lookout for this exact same string of text.</p>
+        <!--Sub Heading-->
+        <h2>Sub-Heading</h2>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
+          show
+          how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration
+          flowing, so be on the lookout for this exact same string of text.</p>
+        <p class="fs-6 font-monospace">Example code block</p>
+        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly
+          repetitive body text used throughout.</p>
+        <!--Another Blog Post-->
+        <a href="#" class="link-body-emphasis text-decoration-none">
+          <h1>Another blog post </h1>
+        </a>
+        <p class="fw-light">December 23, 2020 by <a href="#">Jacob</a></p>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
+          show
+          how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration
+          flowing, so be on the lookout for this exact same string of text.</p>
+        <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
+          show
+          how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration
+          flowing, so be on the lookout for this exact same string of text.</p>
+        <!--Example Table-->
+        <h3>Example Table</h3>
+        <table class="table">
+          <tr>
+            <th>Name</th>
+            <th>Upvotes</th>
+            <th>Downvotes</th>
+          </tr>
+          <tr>
+            <td>Alice</td>
+            <td>10</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>4</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Charlie</td>
+            <td>7</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Totals</td>
+            <td>21</td>
+            <td>23</td>
+          </tr>
+        </table>
+        <p class="mb-5">This is some additional paragraph placeholder content. It's a slightly shorter version of the
+          other highly
+          repetitive body text used throughout.</p>
+        <!--New Feature-->
+        <a href="#" class="link-body-emphasis text-decoration-none">
+          <h1>New Feature</h1>
+        </a>
+        <p class="font-monospace fw-light mb-4">December 14, 2020 by <a href="#">Chris</a></p>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
+          show
+          how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration
+          flowing, so be on the lookout for this exact same string of text.</p>
+        <ul>
+          <li>First list item</li>
+          <li>Second list item with a longer description</li>
+          <li>Third list item to close it out</li>
+        </ul>
+        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly
+          repetitive body text used throughout.</p>
+        <div class="btn-group">
+          <button class="btn btn-outline-primary rounded-pill me-2">Older</button>
+          <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
 
         </div>
-        <div class="col-4 col-md-5 bg-dark text-white position-relative d-none d-lg-block">
-          <p class="position-absolute start-50 top-50 translate-middle">Thumbnail</p>
+      </div>
+      <div class="col-lg-4 col-md-4 mt-3 position-sticky">
+                <!--About-->
+        <div class="p-4 bg-light rounded">
+          <h3>About</h3>
+          <p class="col-lg-12 col-md-11">Customize this section to tell your visitors a little bit about your
+            publication,
+            writers, content, or
+            something else entirely. Totally up to you.</p>
+        </div>
+        <div class="mt-2 border-bottom border-secondary">
+          <h3 class="fst-italic">Recent posts</h3>
+        </div>
+        <!--Section A-->
+        <div class="border-bottom border-secondary-subtle">
+          <div class="d-flex mt-3 mb-3">
+            <div class="col-lg-3 bg-secondary">
+            </div>
+            <div class="col-lg-9 p-3">
+              <p class="mb-0 h7">Examplane blog post title</p>
+              <p class="fw-lighter">January 15, 2024</p>
+            </div>
+          </div>
+        </div>
+        <!--Section B-->
+        <div class="border-bottom border-secondary-subtle">
+          <div class="d-flex mt-3 mb-3">
+            <div class="col-lg-3 bg-secondary">
+            </div>
+            <div class="col-lg-9 p-3">
+              <p class="mb-0 h7">This is another blog post title</p>
+              <p class="fw-lighter">January 14, 2024</p>
+            </div>
+          </div>
+        </div>
+        <!--Section C-->
+        <div class="mb-5">
+          <div class="d-flex mt-3 mb-3">
+            <div class="col-lg-3 bg-secondary">
+            </div>
+            <div class="col-lg-9 p-3 pb-0">
+              <p class="mb-0 h7 lh-sm">Longer blog post title:This one has multiple lines!</p>
+              <p class="fw-lighter">January 14, 2024</p>
+            </div>
+          </div>
+        </div>
+        <!--Archives-->
+        <h3 class="fst-italic">Archives</h3>
+        <div class="link lh-base">
+          <a href="#">March 2021</a>
+          <a href="#">February 2021</a>
+          <a href="#">January 2021</a>
+          <a href="#">December 2020</a>
+          <a href="#">November 2020</a>
+          <a href="#">October 2020</a>
+          <a href="#">September 2020</a>
+          <a href="#">August 2020</a>
+          <a href="#">July 2020</a>
+          <a href="#">June 2020</a>
+          <a href="#">May 2020</a>
+          <a href="#">April 2020 </a>
+        </div>
+        <!--Elsewhere-->
+        <h3 class="mt-5 fst-italic">Elsewhere</h3>
+        <div class="link">
+          <a href="#">Github</a>
+          <a href="#">Social</a>
+          <a href="#">Facebook</a>
         </div>
       </div>
     </div>
   </div>
-  <!--Content-->
-  <div class="mt-4 d-flex row g-4">
-    <div class="col-lg-8">
-      <div class="border-bottom border-secondary-subtle">
-        <h3 class="mb-4">From the Firehose</h3>
-      </div>
-      <h1 class="mt-3">Sample blog post</h1>
-      <p class="mb-3">January 1, 2014 by Mark</p>
-      <p class="mb-4">This blog post shows a few different types of content that’s supported and styled with Bootstrap.
-        Basic typography, images, and code are all supported.</p>
-      <p class="mb-4">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
-        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
-        Cras mattis consectetur purus sit amet fermentum.</p>
-      <p class="mb-4">Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam
-        id dolor id
-        nibh ultricies vehicula ut id elit.</p>
-      <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean
-        lacinia bibendum nulla sed consectetur.</p>
-      <h1>Heading</h1>
-      <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus,
-        nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum
-        at eros.</p>
-      <h1>Sub-heading</h1>
-      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      <p class="fw-light">Example code block</p>
-      <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus,
-        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-      <h1>Sub-heading</h1>
-      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum
-        nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo,
-        tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    </div>
-    <div class="col-lg-4 mt-5">
-      <h2>About</h2>
-      <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean
-        lacinia
-        bibendum nulla sed consectetur.</p>
-      <h2>Archives</h2>
-      <div class="link lh-lg">
-       <a href="#">March 2014</a>
-        <a href="#">February 2014</a>
-         <a href="#">January 2014</a>
-          <a href="#">December 2013</a>
-           <a href="#">November 2013</a>
-            <a href="#">October 2013</a>
-             <a href="#">September 2013</a>
-              <a href="#">August 2013</a>
-               <a href="#">July 2013</a>
-                <a href="#">June 2013</a>
-                 <a href="#">May 2013</a>
-                 <a href="#">April 2013 </a>
-                  
-      </div>
-    </div>
   </div>
+  <div class="container-fluid mt-5">
+    <footer class="py-5 bg-body-secondary text-center">
+      <p>Blog template built for <a href="#">Bootstrap</a> by <a href="#">@mdo</a>.</p>
+      <a href="#">Back to top</a>
+    </footer>
+  </div>
+
 
 </body>
+
+
 
 </html>
