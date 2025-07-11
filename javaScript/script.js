@@ -1,0 +1,2 @@
+let sum
+typeof sum
